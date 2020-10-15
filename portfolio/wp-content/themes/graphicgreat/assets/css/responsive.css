@@ -1,0 +1,252 @@
+
+/*-------- CSS CODE FOR RESPONSIVE LAYOUT --------*/
+
+/*  To make Responsive
+---------------------------------------------------------------------- /
+*
+*   2 - media screen and (max-width: 1199px)
+*   3 - media screen and (max-width: 991px)
+*   4 - media screen and (max-width: 767px)
+*   5 - media screen and (max-width: 680px)
+*   6 - media screen and (max-width: 480px)
+*
+---------------------------------------------------------------------- */
+
+
+/*  2 - media screen and (max-width: 1199px)
+---------------------------------------------------------------------- */
+
+/*@media screen and (max-width: 1199px) { 
+	.navbar-nav>li>a {
+	  	padding: 35px 18px;
+	}
+}*/
+
+/*  2 - media screen and (max-width: 1199px) End
+---------------------------------------------------------------------- */
+
+
+/*  3 - media screen and (max-width: 991px)
+---------------------------------------------------------------------- */
+
+@media screen and (max-width: 991px) { /* for medium device */
+
+	/*  - Main Menu
+	-----------------------------------------*/
+	.navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+   .navbar-collapse.collapse.in {  /* NEW */
+        display: block!important; 
+    }
+	.navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.main-menu .container {
+		width: 100%;
+	}
+	.main-menu {
+		padding: 13px 0 0 0;
+	}
+	.main-menu-container {
+		min-height: 75px;
+	}
+	.main-menu .navbar>.container .navbar-brand, 
+	.main-menu .navbar>.container-fluid .navbar-brand {
+		width: 130px;
+		padding: 3px 25px;
+	}
+	.main-menu .container>.navbar-header, 
+	.main-menu .container-fluid>.navbar-header, 
+	.main-menu .container>.navbar-collapse, 
+	.main-menu .container-fluid>.navbar-collapse {
+		width: 100%;
+		padding: 0 0 12px 0;
+	}
+	.main-menu #main-nav > li {
+		float: none;
+		color: #737d8b;
+		background-color: #292d39;
+		border-top: 1px solid #353b4a;
+	}
+	#main-nav li:first-child {
+		border: none;
+	}
+	.main-menu .nav>li>a {
+		padding: 15px 20px;
+	}
+	.main-menu .navbar-nav {
+		width: 100%;
+		margin: 0;
+	}
+	.main-menu .navbar-default .navbar-nav>li>a {
+	    color: #161616;
+	    padding: 10px 15px;
+	    text-transform: uppercase;
+	}
+	.main-menu .navbar-default .navbar-nav>.active>a, 
+	.main-menu .navbar-default .navbar-nav>.active>a:hover, 
+	.main-menu .navbar-default .navbar-nav>.active>a:focus {
+		color: #ffffff;
+		background-color: #292d39;
+	}
+	.main-menu .navbar-nav .sub-arrow:after, 
+	.main-menu .navbar-nav .collapsible .sub-arrow:after {
+		top: 16px;
+		right: 15px;
+	} 
+	.main-menu .navbar-default .navbar-nav>.active>a:hover, 
+	.main-menu .navbar-default .navbar-nav>.active>a:focus {
+		color: #ffffff !important;
+	}
+	.main-menu .navbar-default .navbar-nav>.open>a, 
+	.main-menu .navbar-default .navbar-nav>.open>a:hover, 
+	.main-menu .navbar-default .navbar-nav>.open>a:focus {
+		color: #ffffff !important;
+		background-color: #363b4a !important;
+	} 
+	.main-menu .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, 
+	.main-menu .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+	.main-menu .navbar-default .navbar-nav>.active>a:hover,
+	.main-menu .navbar-default .navbar-nav>li>a:hover {
+		color: #ffffff !important;
+		background-color: #fd4326 !important;
+	}
+	.main-menu ul.dropdown-menu.sm-nowrap {
+		margin-left: 15px !important;
+	}
+	.main-menu .dropdown > .dropdown-menu {
+		border-top: 0;
+	}
+	.navbar-fixed-top .navbar-collapse, 
+	.navbar-fixed-bottom .navbar-collapse {
+		max-height: 340px !important;
+	}
+	.navbar-collapse.in {
+		overflow-y: auto !important;
+	}
+	.main-menu .sm-blue:not(.sm-blue-vertical) > li > a {
+		color: #737d8b;
+		padding-left: 20px;
+		background-color: #292d39;
+	}
+	.main-menu .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+		background-color: #292d39 !important;
+	}
+	.main-menu .navbar-nav .open .dropdown-menu>li>a {
+		background-color: #292d39;
+		padding: 10px 15px 10px 25px;
+		line-height: 25px !important;
+		border-color: #353b4a;
+	}
+	.main-menu .dropdown > .dropdown-menu {
+		border-top: none;
+	}
+	.main-menu .dropdown > .dropdown-menu:before {
+		display: none;
+	}
+	.main-menu .navbar-nav .sub-arrow:after, 
+	.main-menu .navbar-nav .collapsible .sub-arrow:after {
+		content: "\f101";
+	}
+	.main-menu .navbar-nav .dropdown-toggle.has-submenu.highlighted .sub-arrow:after {
+		content: "\f103";
+	}
+
+	.main-menu .navbar-nav .level-2.has-submenu.highlighted .sub-arrow:after  {
+		content: "\f103";
+	} 
+	.main-menu .navbar-nav .level-3.has-submenu .sub-arrow:after  {
+		content: "\f101";
+	}
+	.main-menu .navbar-nav .level-3.has-submenu.highlighted .sub-arrow:after  {
+		content: "\f103";
+	}
+	/*  - Main Menu End
+	-----------------------------------------*/
+
+
+	.about-section:after {
+		display: none;
+	}
+
+}
+
+/*  3 - media screen and (max-width: 991px) End
+---------------------------------------------------------------------- */
+
+
+/*  4 - media screen and (max-width: 767px)
+---------------------------------------------------------------------- */
+
+@media screen and (max-width: 767px){ /*For Mobile Device*/
+
+	.navbar-default .navbar-toggle {
+		margin-right: 0;
+	}
+	.main-menu .navbar>.container .navbar-brand, 
+	.main-menu .navbar>.container-fluid .navbar-brand {
+		padding: 0;
+		width: 90px;
+	}
+	.navbar-brand>img {
+	    display: block;
+	    width: 100%;
+	}
+	.container>.navbar-header, 
+	.container-fluid>.navbar-header, 
+	.container>.navbar-collapse, 
+	.container-fluid>.navbar-collapse {
+		margin-left: 0;
+	}
+	.header-wrap {
+	    text-align: left;
+	}
+}
+
+/*  4 - media screen and (max-width: 767px) End
+---------------------------------------------------------------------- */
+
+
+/*  5 - media screen and (max-width: 680px)
+---------------------------------------------------------------------- */
+
+@media screen and (max-width: 680px){ 
+	.section-head h2 {
+		line-height: 40px;
+	}
+	.section-head p {
+		width: 100%;
+	}
+}
+
+/*  5 - media screen and (max-width: 680px) End
+---------------------------------------------------------------------- */
+
+
+/*  6 - media screen and (max-width: 480px)
+---------------------------------------------------------------------- */
+
+@media screen and (max-width: 480px){
+
+	.navbar-default .navbar-toggle {
+	  	margin-right: 0;
+	}
+	.navbar-toggle {
+	  	margin-right: 15px;
+	}
+	
+}
+
+/*  6 - media screen and (max-width: 480px) End
+---------------------------------------------------------------------- */

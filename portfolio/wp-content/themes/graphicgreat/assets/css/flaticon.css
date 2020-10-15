@@ -1,0 +1,59 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon.woff") format("woff"),
+	url("../fonts/flaticon.ttf") format("truetype"),
+	url("../fonts/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+}.flaticon-airplaneorigami1:before {
+	content: "\e000";
+}
+.flaticon-computer321:before {
+	content: "\e001";
+}
+.flaticon-house204:before {
+	content: "\e002";
+}
+.flaticon-international12:before {
+	content: "\e003";
+}
+.flaticon-maths5:before {
+	content: "\e004";
+}
+.flaticon-new100:before {
+	content: "\e005";
+}
+.flaticon-paintbrush1:before {
+	content: "\e006";
+}
+.flaticon-pencil24:before {
+	content: "\e007";
+}
+.flaticon-seo14:before {
+	content: "\e008";
+}
+.flaticon-skype12:before {
+	content: "\e009";
+}
+.flaticon-system1:before {
+	content: "\e00a";
+}
+.flaticon-telephone-1:before {
+	content: "\e00b";
+}
+.flaticon-web-programming:before {
+	content: "\e00c";
+}
+.flaticon-website8:before {
+	content: "\e00d";
+}
+.flaticon-worldwide14:before {
+	content: "\e00e";
+}
